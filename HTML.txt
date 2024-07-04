@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nunlock - Loja de Eletrônicos e Tecnologia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .product, .service {
+            background-color: white;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nunlock</h1>
+        <p>Loja de Eletrônicos e Tecnologia</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">Sobre Nós</a>
+        <a href="#products">Produtos</a>
+        <a href="#services">Serviços</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <div class="container" id="home">
+        <h2>Bem-vindo à Nunlock</h2>
+        <p>Somos uma loja on-line situada em Ipatinga (MG) que tem como objetivo revolucionar o mercado na cidade com serviço de delivery e preço justo.</p>
+    </div>
+    <div class="container" id="about">
+        <h2>Sobre Nós</h2>
+        <p>A Nunlock oferece uma ampla variedade de produtos eletrônicos e serviços de assistência técnica para celulares e notebooks. Nosso compromisso é proporcionar qualidade e satisfação aos nossos clientes.</p>
+    </div>
+    <div class="container" id="products">
+        <h2>Produtos</h2>
+        <div class="product">
+            <h3>Fones de Ouvido</h3>
+            <p>Oferecemos uma variedade de fones de ouvido de alta qualidade para todos os gostos.</p>
+        </div>
+        <div class="product">
+            <h3>Caixas de Som</h3>
+            <p>Encontre as melhores caixas de som para suas necessidades de áudio.</p>
+        </div>
+        <div class="product">
+            <h3>Acessórios para Celular</h3>
+            <p>Capas, carregadores, cabos e muito mais.</p>
+        </div>
+        <div class="product">
+            <h3>Smartwatches</h3>
+            <p>Modernos e funcionais, nossos smartwatches são perfeitos para acompanhar seu dia a dia.</p>
+        </div>
+        <div class="product">
+            <h3>Produtos de Informática</h3>
+            <p>Tudo o que você precisa para seu setup de informática.</p>
+        </div>
+        <div class="product">
+            <h3>Produtos Games</h3>
+            <p>Consoles, acessórios e tudo para os gamers de plantão.</p>
+        </div>
+        <div class="product">
+            <h3>Garrafas</h3>
+            <p>Garrafas de diversos modelos e funcionalidades.</p>
+        </div>
+    </div>
+    <div class="container" id="services">
+        <h2>Serviços</h2>
+        <div class="service">
+            <h3>Manutenção em Celulares</h3>
+            <p>Troca de tela, reparo em conector de carga, assistência em iPhones e muito mais.</p>
+        </div>
+        <div class="service">
+            <h3>Serviços de Informática</h3>
+            <p>Upgrade em computadores e notebooks, proteção contra água, toda parte de software e hardware.</p>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contato</h2>
+        <p>Para mais informações, entre em contato conosco:</p>
+        <p>Email: contato@nunlock.com</p>
+        <p>Telefone: (31) 1234-5678</p>
+        <p>Endereço: Rua Exemplo, 123, Ipatinga, MG</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Nunlock. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
